@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudioRK3DPS — low-poly photogrammetric-style 3D models and 3D printing.">
+    <meta property="og:image" content="https://github.com/user-attachments/assets/6e507ec0-2fd5-4606-944c-3414d13fd232">
+    <title>StudioRK3DPS</title>
+    <style>
+      :root {
+        color: #292929;
+        background: #f8fafb;
+        font-family: Arial, Helvetica, sans-serif;
+        --blue: #1669a8;
+        --orange: #e07a1f;
+        --teal: #1a9e8f;
+        --gold: #b8860b;
+        --purple: #7b3fa0;
+        --pink: #d1266b;
+        --green: #2f9e44;
+        --crimson: #b3261e;
+        --plastic-shadow: #303030;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 2rem 1rem;
+        background: radial-gradient(circle at 50% 0%, #fff 0, #f8fafb 55%, #e8f2f8 100%);
+      }
+
+      main {
+        width: min(100%, 680px);
+      }
+
+      header {
+        width: min(100%, 320px);
+        margin: 0 auto 2rem;
+        padding: 1rem 1.25rem .8rem;
+        text-align: center;
+        background: linear-gradient(160deg, #ffffff 0%, #f6f6f6 55%, #ececec 100%);
+        border: 2px solid currentColor;
+        border-radius: .25rem;
+        box-shadow: 7px 7px 0 var(--plastic-shadow), 0 0 0 4px #fff inset;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 8vw, 2.35rem);
+        letter-spacing: -.08em;
+        color: var(--blue);
+      }
+
+      @supports (-webkit-background-clip: text) or (background-clip: text) {
+        h1 {
+          background: linear-gradient(90deg, var(--blue), var(--teal));
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+      }
+
+      .cube {
+        width: 32px;
+        height: 26px;
+        margin: .35rem auto;
+        border: 2px solid var(--orange);
+        border-radius: .25rem;
+        position: relative;
+      }
+
+      .cube::before,
+      .cube::after {
+        content: "";
+        position: absolute;
+        border: 2px solid var(--orange);
+      }
+
+      .cube::before {
+        width: 9px;
+        height: 7px;
+        left: 9px;
+        top: 7px;
+      }
+
+      .cube::after {
+        width: 8px;
+        height: 8px;
+        left: 10px;
+        top: -7px;
+        transform: rotate(45deg);
+        background: #f6f6f6;
+      }
+
+      header p {
+        margin: .25rem 0 0;
+        font: italic 1rem Georgia, serif;
+      }
+
+      .links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem 1rem;
+      }
+
+      a {
+        --accent: var(--blue);
+        min-height: 56px;
+        display: grid;
+        place-items: center;
+        padding: .75rem;
+        color: inherit;
+        font-size: 1.15rem;
+        font-weight: 700;
+        text-align: center;
+        background: linear-gradient(160deg, #ffffff 0%, #f6f6f6 60%, #eaeaea 100%);
+        border: 2px solid var(--accent);
+        border-radius: .55rem;
+        box-shadow: 6px 6px 0 var(--accent), 0 0 0 3px #fff inset;
+        transition: transform .15s ease, box-shadow .15s ease;
+      }
+
+      a.accent-blue { --accent: var(--blue); }
+      a.accent-teal { --accent: var(--teal); }
+      a.accent-orange { --accent: var(--orange); }
+      a.accent-gold { --accent: var(--gold); }
+      a.accent-purple { --accent: var(--purple); }
+      a.accent-pink { --accent: var(--pink); }
+      a.accent-green { --accent: var(--green); }
+      a.accent-crimson { --accent: var(--crimson); }
+
+      a:hover,
+      a:focus-visible {
+        transform: translate(3px, 3px);
+        box-shadow: 3px 3px 0 var(--accent), 0 0 0 3px #fff inset;
+      }
+
+      a:focus-visible {
+        outline: 3px solid var(--blue);
+        outline-offset: 3px;
+      }
+
+      @media (max-width: 420px) {
+        .links {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>StudioRK3DPS</h1>
+        <div class="cube" aria-hidden="true"></div>
+        <p>3D Print Artist creating low poly photogrammetric style 3D models!</p>
+      </header>
+      <nav class="links" aria-label="StudioRK3DPS links">
+        <a class="accent-blue" href="https://cults3d.com/en/users/StudioRK3DPS/3d-models">Cults3D</a>
+        <a class="accent-teal" href="https://thangs.com/designer/StudioRK3DPS">Thangs</a>
+        <a class="accent-orange" href="https://www.instagram.com/rk3dps/">Instagram</a>
+        <a class="accent-pink" href="https://www.tiktok.com/@studiork3dps">TikTok</a>
+        <a class="accent-gold" href="https://beacons.ai/studiork3dps">Beacons</a>
+        <a class="accent-green" href="https://www.etsy.com/uk/shop/StudioRK3DPS?etsrc=sdt">Etsy</a>
+        <a class="accent-crimson" href="https://rkstudio3dps.myshopify.com/">Shopify</a>
+        <a class="accent-purple" href="https://studiork3dps.my.canva.site/studiork3dpsv3">Canva</a>
+      </nav>
+    </main>
+  </body>
+</html>
