@@ -12,4 +12,6 @@ Low-poly, photogrammetric-style 3D models and 3D printing & E Commerce!
 [![Canva](https://img.shields.io/badge/Canva-View%20site-7b3fa0?style=for-the-badge&logo=canva&logoColor=white)](https://studiork3dps.my.canva.site/studiork3dpsv3)
 [![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor%20me%20on-GitHub-EA4AAA?logo=githubsponsors&style=flat-square)](https://github.com/sponsors/gituserc1140)
 
+Check out the App repo and Streamlit App!
+
 StudioRK3DPS landing page!
