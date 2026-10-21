@@ -12,7 +12,7 @@ Low-poly, photogrammetric-style 3D models and 3D printing & E Commerce!
 [![Canva](https://img.shields.io/badge/Canva-View%20site-7b3fa0?style=for-the-badge&logo=canva&logoColor=white)](https://studiork3dps.my.canva.site/studiork3dpsv3)
 [![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor%20me%20on-GitHub-EA4AAA?logo=githubsponsors&style=flat-square)](https://github.com/sponsors/gituserc1140)
 
-Check out the App repo and Streamlit App!
+Check out the concept repo and Streamlit App!
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&style=for-the-badge)](https://github.com/gituserc1140/rkstu3dpsdemo)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rkstu3dpsdemo-htjrvvp792te7jkydj75mf.streamlit.app/)
