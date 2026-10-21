@@ -14,7 +14,7 @@ Low-poly, photogrammetric-style 3D models and 3D printing & E Commerce!
 
 Check out the App repo and Streamlit App!
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&style=for-the-badge)](https://github.com/gituserc1140/RK3DPSV4)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rk3dpsv4-unbdxhppfwaxamzxdymgdx.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&style=for-the-badge)](https://github.com/gituserc1140/rkstu3dpsdemo)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rkstu3dpsdemo-htjrvvp792te7jkydj75mf.streamlit.app/)
 
 StudioRK3DPS landing page!
